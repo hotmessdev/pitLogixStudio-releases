@@ -1,0 +1,25 @@
+# Validates docs/appcast.xml on every pull request to main, with no path filter:
+# the ruleset requires this check on all pull requests. The validator is a byte
+# copy of the source repo's apps/studio/scripts/lib/appcast_validate.py, and the
+# release scripts refuse to run on a hash mismatch.
+name: appcast-validate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  appcast-validate:
+    name: appcast-validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate appcast (structure, order, channels, live assets)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/appcast_validate.py docs/appcast.xml --assets "${{ github.repository }}"

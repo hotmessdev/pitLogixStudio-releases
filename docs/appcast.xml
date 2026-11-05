@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>pitLogix Studio</title>
+        <link>https://raw.githubusercontent.com/hotmessdev/pitLogixStudio-releases/main/docs/appcast.xml</link>
+        <description>Source-repo mirror of the Sparkle auto-update feed. The live feed Sparkle clients fetch lives at the link above (public pitLogixStudio-releases repo, anonymously readable). This copy is the audit-history surface; the release scripts keep both in lockstep on every cut.</description>
+        <language>en</language>
+    </channel>
+</rss>
