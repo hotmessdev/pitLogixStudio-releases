@@ -5,5 +5,14 @@
         <link>https://raw.githubusercontent.com/hotmessdev/pitLogixStudio-releases/main/docs/appcast.xml</link>
         <description>Source-repo mirror of the Sparkle auto-update feed. The live feed Sparkle clients fetch lives at the link above (public pitLogixStudio-releases repo, anonymously readable). This copy is the audit-history surface; the release scripts keep both in lockstep on every cut.</description>
         <language>en</language>
+        <item>
+            <title>pitLogix Studio 3.0.0</title>
+            <link>https://github.com/hotmessdev/pitLogixStudio-releases/releases/tag/studio-v3.0.0</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 06 Nov 2026 02:16:28 +0000</pubDate>
+            <enclosure url="https://github.com/hotmessdev/pitLogixStudio-releases/releases/download/studio-v3.0.0/pitLogixStudio-3.0.0.dmg" sparkle:edSignature="edqzTjG1I1pyiVLbpz9gveByKlvNG0w2tT3SP8wh1QtnfFKOOFPv8CkJBp6Z9N6cKbpWWUxOLUpx8RvO7gU5Dg==" length="4408322" type="application/x-apple-diskimage" />
+        </item>
     </channel>
 </rss>
