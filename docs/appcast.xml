@@ -6,6 +6,16 @@
         <description>Source-repo mirror of the Sparkle auto-update feed. The live feed Sparkle clients fetch lives at the link above (public pitLogixStudio-releases repo, anonymously readable). This copy is the audit-history surface; the release scripts keep both in lockstep on every cut.</description>
         <language>en</language>
         <item>
+            <title>pitLogix Studio 3.1.0</title>
+            <link>https://github.com/hotmessdev/pitLogixStudio-releases/releases/tag/studio-v3.1.0</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:channel>dev</sparkle:channel>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 06 Nov 2026 22:07:08 +0000</pubDate>
+            <enclosure url="https://github.com/hotmessdev/pitLogixStudio-releases/releases/download/studio-v3.1.0/pitLogixStudio-3.1.0.dmg" sparkle:edSignature="JAYQtS6Kyadj5h0ZcjOZ341Yrkssujbk+lxJVpkm4IZt8J9D1xecSQux7s9XQUgH/sWov/IqBb7yaLVRVcnQCQ==" length="4418091" type="application/x-apple-diskimage" />
+        </item>
+        <item>
             <title>pitLogix Studio 3.0.1</title>
             <link>https://github.com/hotmessdev/pitLogixStudio-releases/releases/tag/studio-v3.0.1</link>
             <sparkle:version>2</sparkle:version>
